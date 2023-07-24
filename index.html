@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Project Made by Mayank Singh-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple To-Do App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/4697/4697260.png">
+</head>
+
+<body>
+    <div class="container">
+        <p><b>MY TO-DO APP</b></p>
+
+        <div class="add-task">
+            <input type="text" id="taskInput" placeholder="Enter a new task...">
+            <button onclick="addTask()">Add Task</button>
+        </div>
+        <div class="task-lists">
+            <div class="pending-tasks">
+                <h2 style="font-family: 'Times New Roman', Times, serif;">Pending Tasks List</h2>
+                <ul id="pendingList"></ul>
+            </div>
+            <div class="completed-tasks">
+                <h2 style="font-family: 'Times New Roman', Times, serif;">Completed Tasks List</h2>
+                <ul id="completedList"></ul>
+            </div>
+        </div>
+    </div>
+    <script src="script.js">
+    </script>
+</body>
+
+</html>
